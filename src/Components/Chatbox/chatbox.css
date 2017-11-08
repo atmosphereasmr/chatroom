@@ -1,0 +1,64 @@
+.outerBox {
+  height: 800px;
+  width: 60vw;
+  background-color: grey;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageWindow {
+  height: 700px;
+  width: 50vw;
+  background-color: white;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatInput {
+  height: 200px;
+  width: 50vw;
+  background-color: teal;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatInput input {
+  width: 20vw;
+  height: 100px;
+}
+
+.textBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  color: blue;
+  border: 2px solid grey;
+  border-radius: 25px;
+}
+
+.delete {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
